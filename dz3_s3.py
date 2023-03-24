@@ -10,7 +10,7 @@ import kwargs
 
 
 def user_data(**kwargs):
-    print(f"{name},{age} года рождения, проживает в городе {city}, email:{mail}, телефон {tel}")
+    print(f"{name} {surname},{age} года рождения, проживает в городе {city}, email:{mail}, телефон {tel}")
     return kwargs
 
 
