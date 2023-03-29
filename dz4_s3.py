@@ -14,4 +14,9 @@ def my_func(arg_1, arg_2, arg_3):
         return arg_1 + arg_3
 
 
-print(my_func(20, 10, 20))
+print(my_func(20, 180, 10))
+
+def sec_func(arg_1, arg_2, arg_3):
+    sec_func().sort(reverse=True)
+    return arg_1+arg_2
+print(my_func(30, 180, 150))
